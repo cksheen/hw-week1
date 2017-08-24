@@ -1,0 +1,38 @@
+table {
+    background-color: rgb(255, 255, 204);
+}
+
+td {
+    padding: 0 0 0 0;
+}
+
+strong {
+    color: red;
+}
+
+
+.circle{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    font-size:23px;
+    font-family: Arial;
+    font-weight: 900;
+    color:#000;
+    line-height:50px;
+    text-align:center;
+    background:#ffce00;
+}
+
+.circle_red{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    font-size:23px;
+    font-family: Arial;
+    font-weight: 900;
+    color:#fff;
+    line-height:50px;
+    text-align:center;
+    background:#f00;
+}
