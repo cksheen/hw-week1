@@ -1,0 +1,87 @@
+body{
+    background: url("background.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.col{
+    display: inline-block;
+    width:300px;
+    height:400px;
+    background-color: white;
+    margin: 5px;
+}
+
+.topRow{
+    height:50%;
+    background-color: darkslategray;
+    font-family: sans-serif;
+    color:#fff;
+}
+
+.topRow > .title{
+/*    text-align: center;*/
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.topRow>.price{
+/*    text-align: center;*/
+}
+.topRow>.price *{
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.number{
+    font-size:3em;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.botton{
+/*    text-align: center;*/
+    border: 2px solid white;
+    border-radius: 5px;
+    width:150px;
+    margin:10px auto;
+    font-size: 0.8em;
+    padding:10px 0px;
+    margin-top: 20px;
+}
+
+.dollar{
+    position: relative;
+    top: -1em;
+    margin-left: 15px
+}
+
+.data{
+    background-color: transparent;
+    width: 150px;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+
+.data > table{
+    text-align: left;
+    line-height: 1.5em;
+    border-collapse: collapse;
+}
+
+table, td{
+    border-bottom: 1px solid gray
+}
+
+
+
+i{
+    color: gray;
+}
+
+strong{
+    color: darkslategray;
+}

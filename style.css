@@ -1,41 +1,110 @@
 html {
     background: skyblue;
-	margin: 10px;
-	padding: 10px;
 	}
 body { 
-	background: aliceblue; 
-	margin: 10px; 
-	padding: 10px;
+    width:1200px;
+	background: #3D5BA0;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
 	}
 
 p { 
-    font-family: sans-serif;
+    font-family: serif;
     font-style: normal;
     font-size: 1em;
 	text-align: justify;
-    color: black;
+    line-height: 2em;
+    color: #fff;
 	}
 
-
 a:link { 
-	font-family: sans-serif;
+	font-family: serif;
     font-style: normal;
-    font-size: 1em; 
-	color: black;
+    font-size: 1.5em;
+    line-height: 2em;
+	color: #fff;
     text-decoration: none;
 	}
 
 a:visited{
-    color: black;
+    color: #fff;
     text-decoration: none;
 }
 
+a:hover{
+    color:#ff0;
+}
+
+a:active{
+    color:#fff;
+}
+
+
 header {
-    font-family: sans-serif;
+    font-family: serif;
     font-style: italic;
     text-align: center;
+    background-image: url("thHS85YINB.jpg");
+    background-size: cover;
+    border-radius: 8px;
 }
+
+header h1{ 
+    color:#fff;    
+    text-shadow: 2px 2px black;
+    font-size: 6em;
+    padding: 0px;
+    margin: 0px;
+}
+header h2{
+    font-size: 3em;
+    text-shadow: 1px 1px black;
+    color: #B31970;
+    padding:0px;
+    margin: 0px;
+}
+
+.menu{
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #112A64;
+    text-align: center;
+}
+
+td.menu:hover{
+    background-color: #3D5BA0;
+}
+
+
+.menu a{
+    font-family: serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 1em;    
+}
+
+.menu a:link{
+    color:#EFB84A;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.menu a:visited{
+    color: #EFB84A;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #FFE0A1;
+}
+
+.menu a:active{
+    color:#EFB84A;
+}
+
+
+
 
 #tb1{
     width: 800px;
@@ -45,172 +114,56 @@ header {
 
 .summary p{
     font-family: serif;
-    font-style: oblique;
+    font-style: italic;
     font-size: 1.5em;
-    color: navy;
+    line-height: 0.8em;
+    color: #F6F99F;
 	text-align: center;
 	}
 
 
-.main{
+.main {
+    display: inline-block;
     width: 800px;
-    float: left;
-}
-
-.sidebar{
-    width: 300px;
-    float: right;
-}
-
-
-.home{
-    width: 200px;
-    height: 50px;
     border-radius: 8px;
-    background-color: navy;
-    font-family: sans-serif;
-    font-size: 1em;
-    text-align: center;
+    margin: 0px 10px;
 }
 
-.home a:link{
-    color:white;
-    text-decoration: none;
+.sidebar {
+    display: inline-block;
+    width: 365px;
+    position: relative;
+    top: -88px;
 }
 
-.home a:visited{
-    color: white;
-    text-decoration: none;
-}
-.home a:hover{
-    color: yellow;
-    
+.sidebar *{
+    text-align: center
 }
 
-.home a:active{
-    color:white;
-    
-}
-
-
-.html{
-    width: 200px;
-    height: 50px;
+.main h1{
+    font-family: serif;
+    font-style: normal;
+    text-shadow: 1px 1px black;
+    color: #fff;
+    background-color: #D35DA0;
+    border: 1px solid black;
     border-radius: 8px;
-    background-color: navy;
-    font-family: sans-serif;
-    font-size: 1em;
-    text-align: center;
-}
-
-.html a:link{
-    color: white;
-    text-decoration: none;
-}
-
-.html a:visited{
-    color: white;
-    text-decoration: none;
-}
-
-.html a:hover{
-    color: yellow;
-}
-
-.css{
-    width: 200px;
-    height: 50px;
-    border-radius: 8px;
-    background-color: navy;
-    font-family: sans-serif;
-    font-size: 1em;
-    text-align: center;
-}
-
-.css a:link{
-    color: white;
-    text-decoration: none;
-}
-
-.css a:visited{
-    color: white;
-    text-decoration: none;
-}
-
-
-.css a:hover{
-    color: yellow;
-}
-
-.css a:active{
-    color: white;
-}
-
-.note{
-    width: 200px;
-    height: 50px;
-    border-radius: 8px;
-    background-color: navy;
-    font-family: sans-serif;
-    font-size: 1em;
-    text-align: center;
-}
-
-.note a:link{
-    color: white;
-    text-decoration: none;
-}
-
-.note a:visited{
-    color: white;
-    text-decoration: none;
-}
-
-.note a:hover{
-    color: yellow;
-}
-
-.about{
-    width: 200px;
-    height: 50px;
-    border-radius: 8px;
-    background-color: navy;
-    font-family: sans-serif;
-    font-size: 1em;
-    text-align: center;
-}
-
-.about a:link{
-    color: white;
-    text-decoration: none;
-}
-
-.about a:visited{
-    color: white;
-    text-decoration: none;
-}
-
-.about a:hover{
-    color: yellow;
-}
- 
-.articleStyle  h1{
-    font-family: sans-serif;
-    font-style: oblique;
-    color: snow;
-    background-color: darkblue;
+    padding: 5px;
 	}
 
-.articleStyle  h1{
-    font-family: sans-serif;
-    font-style: oblique;
-    color: snow;
-    background-color: darkblue;
-	}
+
 
 .sidebar h1{
-    font-family: sans-serif;
-    font-style: oblique;
-    color: snow;
-    background-color: darkred;
+    font-family: serif;
+    font-style: normal;
+    text-shadow: 1px 1px black;    
+    color: #fff;
+    background-color: #94D01D;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
 	}
+
+ul {
+    list-style-type: none;
+}
